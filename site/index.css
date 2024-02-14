@@ -1,0 +1,25 @@
+@charset "utf-8";
+main{
+    padding: 0.5rem;
+}
+.container{
+    display: flex;
+}
+
+.timeline{
+    width: 150px;
+    text-align: center;
+}
+.a{
+ margin: auto;
+ padding: 0.5rem;
+ text-align: center;
+ font-size: 30px;
+}
+img{
+    margin: auto;
+}
+
+
+
+

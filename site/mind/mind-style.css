@@ -1,0 +1,47 @@
+@charset "utf-8";
+main{
+    width: 50%;
+    margin: auto;
+}
+.news{
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+.ss{
+    width: 60%;
+    margin: 2rem 2rem;
+}
+body h2{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+/*TOPへ戻るボタン*/
+#top {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 40px solid #4548e16d;
+    border-bottom: 40px solid #4548e16d;
+    border-left: 40px solid transparent;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background: none;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+#top:before {
+    display: block;
+    margin-right: -20px;
+    margin-top: 13px;
+}
+
+#top a:hover {
+    text-decoration: none;
+}

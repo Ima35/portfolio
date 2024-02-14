@@ -1,0 +1,30 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+    margin: 0 auto;
+    padding: 2rem;
+    /* 一番多い幅に合わせる */
+    width: fit-content;
+
+}
+
+.mark-list li {
+    line-height: 40px;
+    padding: 3px;
+    background: linear-gradient(transparent 70%, #5977c836 30%);
+font-size: 20px;
+}
+.mark-list p{
+    line-height: 40px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+h2{
+    font-size: 33px;
+    text-align: center;
+    padding: 6px;
+}
